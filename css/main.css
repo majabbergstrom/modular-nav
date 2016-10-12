@@ -30,10 +30,13 @@ header {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+}
+
 nav li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.5rem;
 }
 
 a {
@@ -44,4 +47,12 @@ a {
 a:hover {
   color: #fff;
   background-color: #0074d9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
 }
